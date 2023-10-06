@@ -10,4 +10,5 @@ int main(void)
 -19\n";
 	write(2, quote, sizeof(quote) - 1);
 	return (1);
+}
 
