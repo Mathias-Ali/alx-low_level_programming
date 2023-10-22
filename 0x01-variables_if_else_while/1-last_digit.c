@@ -35,7 +35,7 @@ int main(void)
 	{
 		printLast(n, lastDigit, msg1);
 	}
-	else if ((lastDigit < 6) && (lastDigit != 0))
+	else if (lastDigit <= 5)
 	{
 		printLast(n, lastDigit, msg2);
 	}
