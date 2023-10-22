@@ -6,7 +6,9 @@
  * @n:number to be printed on display
  * @lastDigit: the last  digit of the displayed number
  * @msg: message to follow a specific condition
+ * Return:void(success)
  */
+
 void printLast(int n, int lastDigit, char *msg)
 {
 	 printf("Last digit of %d is %d and is %s\n", n, lastDigit, msg);
@@ -16,6 +18,7 @@ void printLast(int n, int lastDigit, char *msg)
  *
  * Return:always 0 (success)
  */
+
 int main(void)
 {
 	int n;
@@ -28,17 +31,11 @@ int main(void)
 	char *msg2 = "less than 6 and not 0";
 
 	if (lastDigit > 5)
-	{
 		printLast(n, lastDigit, msg);
-	}
 	else if (lastDigit == 0)
-	{
 		printLast(n, lastDigit, msg1);
-	}
 	else if (lastDigit <= 5)
-	{
 		printLast(n, lastDigit, msg2);
-	}
 	return (0);
 }
 
