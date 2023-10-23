@@ -26,16 +26,13 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	int lastDigit = n % 10;
-	char *msg = "greater than 5";
-	char *msg1 = "0";
-	char *msg2 = "less than 6 and not 0";
 
 	if (lastDigit > 5)
-		printLast(n, lastDigit, msg);
+		printLast(n, lastDigit, "greater than 5");
 	else if (lastDigit == 0)
-		printLast(n, lastDigit, msg1);
+		printLast(n, lastDigit, "0");
 	else if (lastDigit <= 5)
-		printLast(n, lastDigit, msg2);
+		printLast(n, lastDigit, "less than 6 and not 0");
 	return (0);
 }
 
