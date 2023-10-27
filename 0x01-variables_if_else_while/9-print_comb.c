@@ -9,15 +9,15 @@ int main(void)
 
 	for (digit = '0'; digit <= '9'; digit++)
 	{
+		putchar(digit);
 		if (digit < '9')
 		{
-			putchar(digit);
 			putchar(',');
 			putchar(' ');
 		}
 		else
 		{
-			putchar(digit);
+			putchar('\n');
 		}
 	}
 	return (0);
