@@ -22,11 +22,11 @@ void printLast(int n, int lastDigit, char *msg)
 int main(void)
 {
 	int n;
+	int lastDigit;;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int lastDigit = n % 10;
-
+	lastDigit = n % 10;
 	if (lastDigit > 5)
 		printLast(n, lastDigit, "greater than 5");
 	else if (lastDigit == 0)
