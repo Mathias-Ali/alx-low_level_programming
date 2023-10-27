@@ -22,7 +22,7 @@ void printLast(int n, int lastDigit, char *msg)
 int main(void)
 {
 	int n;
-	int lastDigit;;
+	int lastDigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
