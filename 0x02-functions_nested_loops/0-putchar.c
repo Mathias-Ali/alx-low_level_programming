@@ -11,7 +11,7 @@ int main(void)
 	int i = 0;
 	int len = sizeof(myChar) - 1;
 
-	while (i <= len)
+	while (i < len)
 	{
 		_putchar(myChar[i]);
 		i++;
