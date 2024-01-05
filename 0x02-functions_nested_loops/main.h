@@ -11,5 +11,6 @@ int _abs(int i);
 int print_last_digit(int i);
 void jack_bauer(void);
 int add(int a, int b);
+void print_to_98(int n);
 
 #endif
