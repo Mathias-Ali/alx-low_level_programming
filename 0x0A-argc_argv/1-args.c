@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * @argc: number of elements passed to main
+ * @argv: pointer to array of strings
  * Return: always 0 (success)
  */
 int main(int argc, char *argv[])
